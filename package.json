@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "opencode plugin for MIT Parley: provider + model switching, API-key auth, and cost tracking",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyeshmz/opencode-parley-mit.git"
+  },
   "type": "module",
   "main": "src/index.ts",
   "exports": {
