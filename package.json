@@ -2,6 +2,7 @@
   "name": "opencode-parley",
   "version": "0.1.0",
   "description": "opencode plugin for MIT Parley: provider + model switching, API-key auth, and cost tracking",
+  "license": "MIT",
   "type": "module",
   "main": "src/index.ts",
   "exports": {
