@@ -1,0 +1,26 @@
+{
+  "name": "opencode-parley",
+  "version": "0.1.0",
+  "description": "opencode plugin for MIT Parley: provider + model switching, API-key auth, and cost tracking",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "parley",
+    "mit"
+  ],
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^1.18.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  }
+}
