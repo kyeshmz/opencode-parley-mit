@@ -1,0 +1,10 @@
+{
+  "productId": "opencode-parley",
+  "type": "plugin",
+  "displayName": "MIT Parley",
+  "description": "Use MIT's Parley LLM gateway in opencode: registers Parley as a provider with models pulled live from its API (Claude, GPT, Gemini, Llama on one MIT-billed key), validated API-key login with error toasts, per-message cost display from Parley's token rates, and /parley_usage and /parley_budget commands for billed spend and budget alerts.",
+  "repoUrl": "https://github.com/kyeshmz/opencode-parley-mit",
+  "homepageUrl": "https://www.npmjs.com/package/opencode-parley",
+  "tags": ["provider", "mit", "parley", "cost-tracking", "budget", "auth", "models"],
+  "installation": "## Installation\n\n1. Add the plugin to `~/.config/opencode/opencode.json`:\n\n```json\n{ \"plugin\": [\"opencode-parley\"] }\n```\n\nopencode installs it automatically on next launch.\n\n2. Authorize with your Parley API key (from your MIT IS&T administrator):\n\n```sh\nopencode auth login   # pick \"MIT Parley\", paste your sk-parley-v1-... key\n```\n\nThe key is verified live against the Parley API before it is stored. Alternatively set `PARLEY_API_KEY` in your environment or project `.env`.\n\n3. Pick a model with `/models` (all prefixed `parley/`).\n\nOptional: set `PARLEY_ACCOUNT_ID` to enable `/parley_usage` and `/parley_budget`."
+}
